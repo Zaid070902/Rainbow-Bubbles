@@ -31,15 +31,18 @@ body {
 
 @keyframes colorChange {
   0% {
-    background-color: rgba(0, 100, 120, 0.5);
+    background-color: rgba(0, 200, 220, 0.5);
+    box-shadow: rgba(0, 200, 220, 0.5) 0 10px 10px;
   }
 
   50% {
-    background-color: rgba(100, 0, 120, 0.5);
+    background-color: rgba(150, 0, 180, 0.5);
+    box-shadow: rgba(150, 0, 180, 0.5) 0 10px 10px;
   }
 
   100% {
-    background-color: rgba(100, 120, 0, 0.5);
+    background-color: rgba(200, 220, 0, 0.5);
+    box-shadow: rgba(200, 220, 0, 0.5) 0 10px 10px;
   }
 }
 
