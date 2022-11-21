@@ -14,7 +14,6 @@ spawnPoint();
 
 setInterval(function call(event) {
   window.addEventListener("pointermove", call);
-  window.addEventListener("touchmove", call);
 
   let circle = document.createElement("div");
   circle.classList.add("circle");
