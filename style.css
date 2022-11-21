@@ -21,8 +21,7 @@ body {
   transition: 2s;
   height: 100px;
   width: 100px;
-  animation: color 2s, fall 5s forwards, colorChange 1s infinite alternate,
-    scale 3s;
+  animation: color 2s, colorChange 1s infinite alternate, scale 3s forwards;
 }
 
 @keyframes scale {
@@ -48,14 +47,5 @@ body {
   100% {
     background-color: rgba(200, 220, 0, 0.1);
     box-shadow: rgba(200, 220, 0, 0.5) 0 10px 10px;
-  }
-}
-
-@keyframes fall {
-  0% {
-  }
-
-  100% {
-    transform: translateY(1500%);
   }
 }
