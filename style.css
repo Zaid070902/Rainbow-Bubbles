@@ -5,10 +5,14 @@
 }
 
 body {
-  background-color: #111;
+  background-color: rgba(0, 0, 0, 0.5);
   height: 100vh;
   overflow: hidden;
   touch-action: none;
+  background-image: url(./jack-taylor-oe8sIOWI9xY-unsplash-min.jpg);
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
 }
 
 .circle {
@@ -37,12 +41,12 @@ body {
   }
 
   50% {
-    background-color: rgba(150, 0, 180, 0.5);
+    background-color: rgba(150, 0, 180, 0.3);
     box-shadow: rgba(150, 0, 180, 0.5) 0 10px 10px;
   }
 
   100% {
-    background-color: rgba(200, 220, 0, 0.5);
+    background-color: rgba(200, 220, 0, 0.1);
     box-shadow: rgba(200, 220, 0, 0.5) 0 10px 10px;
   }
 }

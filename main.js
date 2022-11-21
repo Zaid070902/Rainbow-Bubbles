@@ -25,5 +25,5 @@ setInterval(function call(event) {
 
   setInterval(() => {
     circle.remove();
-  }, 5000);
+  }, 3000);
 }, 0);
