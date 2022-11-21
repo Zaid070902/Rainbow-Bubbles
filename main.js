@@ -22,4 +22,8 @@ setInterval(function call(event) {
   circle.style.left = event.pageX + "px";
 
   body.appendChild(circle);
+
+  setInterval(() => {
+    circle.remove();
+  }, 5000);
 }, 0);
