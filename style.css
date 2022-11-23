@@ -21,7 +21,7 @@ body {
   transition: 2s;
   height: 100px;
   width: 100px;
-  animation: color 2s, colorChange 1s infinite alternate, scale 3s forwards;
+  animation: colorChange 1s infinite alternate, scale 4s forwards;
 }
 
 @keyframes scale {
@@ -29,7 +29,7 @@ body {
   }
 
   100% {
-    transform: scale(0.3);
+    transform: scale(0.2);
   }
 }
 
