@@ -17,7 +17,6 @@ setInterval(function call(event) {
 
   let circle = document.createElement("div");
   circle.classList.add("circle");
-  circle.style.borderRadius = "50%";
   circle.style.top = event.pageY + "px";
   circle.style.left = event.pageX + "px";
 
